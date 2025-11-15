@@ -41,32 +41,12 @@
 
 ## **Инструкция по использованию**
 
-### **1. Запуск программы**
+### **Запуск программы**
 
 ```
 python main.py --package <имя> --version <версия> --repo <url> --depth <глубина>
 ```
 
-### **Пример:**
-
-```
-python main.py --package requests --version 2.28.1 --repo https://pypi.org/simple/ --depth 3
-```
-
-### **Запуск в тестовом режиме:**
-
-```
-python main.py --test --repo tests/repo.txt --package A --depth 5
-```
-
-### **Формат тестового репозитория:**
-
-```
-A: B C
-B: D
-C: D
-D:
-```
-
 ---
+
 
