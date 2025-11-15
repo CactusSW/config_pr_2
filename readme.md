@@ -44,9 +44,10 @@
 ### **Запуск программы**
 
 ```
-python main.py --package <имя> --version <версия> --repo <url> --depth <глубина>
+python <название файла> --package <имя пакета> --test-repo --repo-file <название файла с репозиторием> --ascii-tree --print-order --plantuml
 ```
 
 ---
+
 
 
